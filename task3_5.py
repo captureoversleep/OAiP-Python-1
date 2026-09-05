@@ -5,13 +5,13 @@ elif total == 0:
 	print('Money amount is 0 - no need to solve!')
 else:
 	bank_th = total // 1000
-	total = total % 1000
+	total %= 1000
 	
 	bank_hun = total // 100
-	total = total % 100
+	total %= 100
 	
 	coin_ten = total // 10
-	total = total % 10
+	total %= 10
 	
 	coin_one = total
 	
